@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="120dp"
+    android:padding="10sp"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/item_txt_tab"
+        android:textColor="@color/white"
+        android:text="@string/app_name"/>
+
+    <View
+        android:id="@+id/indicator_tab"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:backgroundTint="#F222DD"
+        android:background="@drawable/cirlce"/>
+
+
+</LinearLayout>
